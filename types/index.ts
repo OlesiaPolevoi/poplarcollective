@@ -17,3 +17,23 @@ export interface EventFormData {
   location: string;
   organizer: string;
 }
+
+export interface UserInterest {
+  id: string;
+  name: string;
+  icon?: string;
+}
+
+export interface InteractionStyle {
+  id: string;
+  name: string;
+  description: string;
+}
+
+export interface UserProfile {
+  id: string;
+  name: string;
+  interests: string[]; // Array of interest IDs
+  interactionStyles: string[]; // Array of interaction style IDs
+  createdAt: string;
+}

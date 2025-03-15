@@ -1,0 +1,80 @@
+{
+  "profiles": [
+    {
+      "id": "1742072400131",
+      "name": "Olesia",
+      "interests": [
+        "books",
+        "tech"
+      ],
+      "interactionStyles": [
+        "small-groups"
+      ],
+      "createdAt": "2025-03-15T21:00:00.131Z"
+    }
+  ],
+  "interests": [
+    {
+      "id": "books",
+      "name": "Books & Reading"
+    },
+    {
+      "id": "gardening",
+      "name": "Gardening"
+    },
+    {
+      "id": "pickleball",
+      "name": "Pickleball"
+    },
+    {
+      "id": "tech",
+      "name": "Technology"
+    },
+    {
+      "id": "cooking",
+      "name": "Cooking"
+    },
+    {
+      "id": "hiking",
+      "name": "Hiking"
+    },
+    {
+      "id": "art",
+      "name": "Art & Crafts"
+    },
+    {
+      "id": "music",
+      "name": "Music"
+    },
+    {
+      "id": "yoga",
+      "name": "Yoga & Wellness"
+    },
+    {
+      "id": "photography",
+      "name": "Photography"
+    }
+  ],
+  "interactionStyles": [
+    {
+      "id": "one-on-one",
+      "name": "One-on-One",
+      "description": "Prefer intimate conversations and personal connections"
+    },
+    {
+      "id": "small-groups",
+      "name": "Small Groups",
+      "description": "Enjoy gatherings with a few people in a comfortable setting"
+    },
+    {
+      "id": "large-events",
+      "name": "Large Events",
+      "description": "Thrive in bigger social settings with many participants"
+    },
+    {
+      "id": "hosting",
+      "name": "Hosting Events",
+      "description": "Love to organize and facilitate gatherings for others"
+    }
+  ]
+}
