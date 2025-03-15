@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "title": "Tech Workshop",
+      "description": "Learn about the latest technologies and programming languages. Bring your laptop for hands-on exercises.",
+      "date": "50520-02-02T14:00",
+      "location": "Tech Hub, 456 Innovation Street",
+      "organizer": "John Doe",
+      "id": "1742047344470",
+      "attendees": [
+        "Alice Johnson"
+      ],
+      "createdAt": "2025-03-15T14:02:24.470Z"
+    }
+  ]
+}
