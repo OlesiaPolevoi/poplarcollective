@@ -39,7 +39,7 @@
       "location": "USF",
       "organizer": "Olesia P",
       "id": "1742061121838",
-      "attendees": [],
+      "attendees": ["Jeremy Smith", "Alice Myers", "Dana Silvers"],
       "createdAt": "2025-03-15T17:52:01.838Z"
     }
   ]

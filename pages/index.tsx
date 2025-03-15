@@ -12,8 +12,8 @@ export default function Home({ events }: HomeProps) {
   return (
     <>
       <Box sx={{ mb: 4, textAlign: "center" }}>
-        <Typography variant="h3" component="h1" gutterBottom>
-          Welcome to Poplar Collective
+        <Typography variant="h3" component="h2" gutterBottom>
+          Like a strong tree, your connections grow here.
         </Typography>
         <Typography
           variant="h5"
@@ -21,7 +21,8 @@ export default function Home({ events }: HomeProps) {
           color="text.secondary"
           gutterBottom
         >
-          Discover and join events in your community
+          Olesia, local events that align with your interests. Handpicked just
+          for you!
         </Typography>
       </Box>
 
