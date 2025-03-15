@@ -1,4 +1,5 @@
 export interface Event {
+  agenda: any;
   id: string;
   title: string;
   description: string;

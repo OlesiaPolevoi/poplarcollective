@@ -1,16 +1,46 @@
 {
   "events": [
     {
-      "title": "Tech Workshop",
+      "title": "Tech Workshop: Connect & Learn",
       "description": "Learn about the latest technologies and programming languages. Bring your laptop for hands-on exercises.",
-      "date": "50520-02-02T14:00",
+      "date": "2025-02-02T14:00",
       "location": "Tech Hub, 456 Innovation Street",
       "organizer": "John Doe",
       "id": "1742047344470",
-      "attendees": [
-        "Alice Johnson"
-      ],
-      "createdAt": "2025-03-15T14:02:24.470Z"
+      "attendees": ["Alice Johnson", "Sam Smith"],
+      "createdAt": "2025-03-15T14:02:24.470Z",
+      "agenda": [
+        {
+          "time": "14:00",
+          "activity": "Welcome & Introductions - Casual intros & icebreakers"
+        },
+        {
+          "time": "14:15",
+          "activity": "Tech Trends 2025 - AI, Web3, and the future of coding"
+        },
+        {
+          "time": "14:45",
+          "activity": "Hands-on Coding - Team up & build a mini project"
+        },
+        {
+          "time": "15:30",
+          "activity": "Open Discussion - Share insights, ideas & Q&A"
+        },
+        {
+          "time": "16:00",
+          "activity": "Conversations & Refreshments - Unwind & connect with others"
+        }
+      ]
+    },
+    {
+      "title": "Pickleball",
+      "description": "Have fun",
+      "date": "2025-03-16T13:51",
+      "location": "USF",
+      "organizer": "Olesia P",
+      "id": "1742061121838",
+      "attendees": [],
+      "createdAt": "2025-03-15T17:52:01.838Z"
     }
   ]
 }
