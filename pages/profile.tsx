@@ -8,8 +8,10 @@ import {
   ToggleButton,
   Divider,
   Container,
+  Button,
 } from "@mui/material";
 import Layout from "../components/Layout";
+import Link from "next/link";
 
 // Define the interests and interaction styles
 const interests = [
@@ -59,7 +61,7 @@ export default function Profile() {
   };
 
   return (
-    <Layout>
+    <>
       <Typography variant="h4" component="h1" gutterBottom align="center">
         Your Profile
       </Typography>
@@ -170,14 +172,30 @@ export default function Profile() {
             </Box>
           )}
         </Paper>
-
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            p: 2,
+          }}
+        >
+          <Link href="/" passHref color="inherit">
+            <Button
+              color="inherit"
+              component="a"
+              style={{ backgroundColor: "green", color: "white" }}
+            >
+              Submit Profile
+            </Button>
+          </Link>
+        </Box>
         <Box sx={{ mt: 4, textAlign: "center" }}>
           <Typography variant="body2" color="text.secondary">
-            Your preferences are saved automatically and will be used to
-            personalize your experience.
+            Your preferences are saved and will be used to personalize your
+            experience.
           </Typography>
         </Box>
       </Container>
-    </Layout>
+    </>
   );
 }
