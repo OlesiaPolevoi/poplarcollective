@@ -74,8 +74,8 @@ The application includes the following API endpoints:
 ## Future Enhancements
 
 - User authentication
-- Event categories and tags
+- Event categories and tags. Groups - once profile data is gatherewd.
 - Search and filtering functionality
 - Image uploads for events
 - Email notifications for event updates
-- Integration with a proper database
+- Integration with a database
