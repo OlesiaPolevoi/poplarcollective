@@ -54,7 +54,8 @@ export default function Home({ events }: HomeProps) {
             color="text.secondary"
             gutterBottom
           >
-            See the events you've attended.
+            Every connection is a branch on your journey. Revisit the moments
+            that helped you grow.
           </Typography>
         </Box>
 
