@@ -30,6 +30,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               Create Event
             </Button>
           </Link>
+          <Link href="/profile" passHref>
+            <Button color="inherit" component="a">
+              Profile
+            </Button>
+          </Link>
         </Toolbar>
       </AppBar>
       <Container maxWidth="lg">
