@@ -5,7 +5,7 @@
       "description": "Take a break, grab a cozy seat, and chat with fellow book lovers over coffee. This month, we’re diving into 'Stolen Focus' by Johann Hari—an eye-opening read about attention, distraction, and the modern world. Whether you’ve finished the book or just want to listen, come share your thoughts and connect!",
       "date": "2025-03-22T15:00",
       "location": "Cozy Coffee House, 789 Literary Lane",
-      "organizer": "Olesia Polevoi",
+      "organizer": "Bill Gates",
       "id": "1742061121838",
       "attendees": ["Acaica Dunkley", "Olivia Okinczyc", "David Lee"],
       "createdAt": "2025-03-15T17:52:01.838Z",
@@ -38,9 +38,15 @@
       "description": "Learn about the latest technologies and programming languages. Bring your laptop for hands-on exercises.",
       "date": "2025-03-21T17:00",
       "location": "Tech Hub, 456 Innovation Street",
-      "organizer": "John Doe",
+      "organizer": "Will Freeman",
       "id": "1742047344470",
-      "attendees": ["Alice Johnson", "Sam Smith"],
+      "attendees": [
+        "Nikita Polevoi",
+        "Alice Johnson",
+        "Acaica Dunkley",
+        "Olivia Okinczyc",
+        "Sam Smith"
+      ],
       "createdAt": "2025-03-15T14:02:24.470Z",
       "agenda": [
         {
