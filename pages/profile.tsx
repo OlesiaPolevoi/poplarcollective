@@ -72,7 +72,7 @@ export default function Profile() {
         align="center"
         sx={{ mb: 4 }}
       >
-        Customize your preferences to enhance your experience
+        Tell us about your interests, and we'll help your connections grow.{" "}
       </Typography>
 
       <Container maxWidth="md">
@@ -136,6 +136,16 @@ export default function Profile() {
             exclusive
             onChange={handleInteractionStyleChange}
             aria-label="interaction style"
+            // sx={{
+            //   display: "flex",
+            //   flexWrap: "wrap",
+            //   "& .MuiToggleButtonGroup-grouped": {
+            //     m: 1,
+            //     flexGrow: 1,
+            //     borderRadius: "8px !important",
+            //     py: 1.5,
+            //   },
+            // }}
             sx={{
               display: "flex",
               flexWrap: "wrap",
@@ -144,6 +154,10 @@ export default function Profile() {
                 flexGrow: 1,
                 borderRadius: "8px !important",
                 py: 1.5,
+                border: "1px solid rgba(0, 0, 0, 0.23) !important", // Ensure all buttons have borders
+                "&.MuiToggleButtonGroup-grouped:not(:first-of-type)": {
+                  borderLeft: "1px solid rgba(0, 0, 0, 0.23) !important", // Restore missing left border
+                },
               },
             }}
           >
@@ -183,13 +197,20 @@ export default function Profile() {
             <Button
               color="inherit"
               component="a"
-              style={{ backgroundColor: "green", color: "white" }}
+              sx={{
+                backgroundColor: "green",
+                color: "white",
+                padding: "35px",
+                m: 1,
+                borderRadius: "8px !important",
+                py: 1.5,
+              }}
             >
               Submit Profile
             </Button>
           </Link>
         </Box>
-        <Box sx={{ mt: 4, textAlign: "center" }}>
+        <Box sx={{ mt: 1, textAlign: "center" }}>
           <Typography variant="body2" color="text.secondary">
             Your preferences are saved and will be used to personalize your
             experience.

@@ -15,7 +15,7 @@ export default function Home({ events }: HomeProps) {
       <Box sx={{ mb: 4 }}>
         <Box sx={{ mb: 4, textAlign: "center" }}>
           <Typography variant="h3" component="h1" gutterBottom>
-            Like a strong tree, your connections grow here.{" "}
+            Like a strong tree, your connections grow here
           </Typography>
           <Typography
             variant="h5"
@@ -23,8 +23,7 @@ export default function Home({ events }: HomeProps) {
             color="text.secondary"
             gutterBottom
           >
-            Olesia, local events that align with your interests. Handpicked just
-            for you!
+            Olesia, discover local events handpicked just for you!
           </Typography>
         </Box>
 
@@ -46,7 +45,7 @@ export default function Home({ events }: HomeProps) {
       <Box>
         <Box sx={{ mb: 4, textAlign: "center" }}>
           <Typography variant="h4" component="h4" gutterBottom>
-            Event history.
+            Event history
           </Typography>
           <Typography
             variant="h5"

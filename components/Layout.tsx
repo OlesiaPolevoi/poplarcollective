@@ -26,12 +26,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </Link>
           </Typography>
           <Link href="/events/create" passHref>
-            <Button color="inherit" component="a">
+            <Button sx={{ color: "white", fontWeight: 700 }} component="a">
               Create Event
             </Button>
           </Link>
           <Link href="/profile" passHref>
-            <Button color="inherit" component="a">
+            <Button sx={{ font: "#4CAF50" }} component="a">
               Profile
             </Button>
           </Link>

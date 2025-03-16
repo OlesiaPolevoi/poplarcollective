@@ -1,9 +1,42 @@
 {
   "events": [
     {
+      "title": "Good Reads & Slow Sips: March Book Club",
+      "description": "Take a break, grab a cozy seat, and chat with fellow book lovers over coffee. This month, we’re diving into 'Stolen Focus' by Johann Hari—an eye-opening read about attention, distraction, and the modern world. Whether you’ve finished the book or just want to listen, come share your thoughts and connect!",
+      "date": "2025-03-22T15:00",
+      "location": "Cozy Coffee House, 789 Literary Lane",
+      "organizer": "Olesia Polevoi",
+      "id": "1742061121838",
+      "attendees": ["Acaica Dunkley", "Olivia Okinczyc", "David Lee"],
+      "createdAt": "2025-03-15T17:52:01.838Z",
+      "agenda": [
+        {
+          "time": "15:00",
+          "activity": "Welcome & Order Drinks – Grab your favorite beverage and get comfy"
+        },
+        {
+          "time": "15:15",
+          "activity": "Book Discussion – Thoughts on 'Stolen Focus' and how it relates to our lives"
+        },
+        {
+          "time": "16:00",
+          "activity": "Open Book Picks – Suggest and vote for next month’s read"
+        },
+        {
+          "time": "16:30",
+          "activity": "Casual Conversations – Chat about books, life, and everything in between"
+        }
+      ],
+      "bring": [
+        "A copy of 'Stolen Focus' (if you have one)",
+        "Your thoughts, experiences, or favorite takeaways",
+        "A book recommendation for next month (optional)"
+      ]
+    },
+    {
       "title": "Tech Workshop: Connect & Learn",
       "description": "Learn about the latest technologies and programming languages. Bring your laptop for hands-on exercises.",
-      "date": "2025-02-02T14:00",
+      "date": "2025-03-21T17:00",
       "location": "Tech Hub, 456 Innovation Street",
       "organizer": "John Doe",
       "id": "1742047344470",
@@ -31,16 +64,6 @@
           "activity": "Conversations & Refreshments - Unwind & connect with others"
         }
       ]
-    },
-    {
-      "title": "Pickleball",
-      "description": "Have fun",
-      "date": "2025-03-16T13:51",
-      "location": "USF",
-      "organizer": "Olesia P",
-      "id": "1742061121838",
-      "attendees": [],
-      "createdAt": "2025-03-15T17:52:01.838Z"
     }
   ]
 }
